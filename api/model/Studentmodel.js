@@ -1,5 +1,6 @@
 const StudentData = require('../data/students.json');
 const fs = require('fs');
+const { v4: uuidv4 } = require('uuid')
 
 // Read all students
 const getStudents = (req, res) =>{
@@ -19,9 +20,18 @@ const writeToFile = (filename, content) =>{
     })
 }
 
-
+// create  Students
+const createStudent = (student) =>{
+    return new Promise((resolve, reject)=>{
+        const studentID = {id: uuidv4(), ...student}
+        StudentData.push(studentID)
+        writeToFile('../data/students.json', StudentData)
+        resolve(studentID)
+    });
+}
 
 module.exports = {
     getStudents,
-    writeToFile
+    writeToFile,
+    createStudent
 }

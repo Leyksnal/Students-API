@@ -17,6 +17,7 @@
   "author": "Leke",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "uuidv4": "^6.2.12"
   }
 }

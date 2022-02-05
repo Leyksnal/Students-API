@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Bello Akeem",
+        "course": "Full Stack",
+        "year": "One Year"
+    },
+    {
+        "id": 2,
+        "name": "Toheeb",
+        "course": "Frontend",
+        "year": "One Year"
+    },
+    {
+        "id": 3,
+        "name": "Nelson",
+        "course": "Backend",
+        "year": "One Year"
+    },
+    {
+        "id": 4,
+        "name": "Toheeb",
+        "course": "Frontend",
+        "year": "One Year"
+    },
+    {
+        "id": 5,
+        "name": "Cythia",
+        "course": "UI UX",
+        "year": "One Year"
+    },
+    {
+        "id": 6,
+        "name": "Emmanuel",
+        "course": "Project Manager",
+        "year": "One Year"
+    },
+    {
+        "id": 7,
+        "name": "Victor",
+        "course": "Frontend",
+        "year": "One Year"
+    },
+    {
+        "id": 8,
+        "name": "Preshy",
+        "course": "Backend",
+        "year": "One Year"
+    },
+    {
+        "id": 9,
+        "name": "Micheal",
+        "course": "Fullstack",
+        "year": "One Year"
+    },
+    {
+        "id": 10,
+        "name": "Toheeb",
+        "course": "Frontend",
+        "year": "One Year"
+    }
+]
